@@ -1,0 +1,25 @@
+.details_container {
+  margin: 120px 100px 0 100px;
+}
+
+.post_details {
+  background: white;
+  padding: 20px;
+  border-radius: 4px;
+  border: 1px solid #e5e7eb;
+  margin-bottom: 20px;
+}
+
+.details_img {
+  margin-top: 20px;
+}
+
+.commentInput {
+  padding: 10px;
+  background-color: white;
+  border: none;
+  outline: none;
+  border-bottom: 1px solid black;
+  width: 100%;
+  margin-top: 20px;
+}

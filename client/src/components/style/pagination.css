@@ -1,0 +1,42 @@
+.pagination {
+  display: flex;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+li:first-child {
+  border-left: 1px solid teal !important;
+  border-top-left-radius: 6px;
+  border-bottom-left-radius: 6px;
+}
+
+li:last-child {
+  border-top-right-radius: 6px;
+  border-bottom-right-radius: 6px;
+}
+
+li {
+  list-style-type: none;
+  display: block;
+  padding: 10px;
+  border: 1px solid teal;
+  border-left: none;
+}
+
+.index {
+  padding: 10px;
+  color: teal;
+  font-size: 14px;
+}
+
+.index:hover {
+  color: red;
+}
+
+.active {
+  background: rgb(97, 240, 54);
+}
+
+.active a {
+  color: white;
+}

@@ -1,0 +1,115 @@
+.edit {
+  margin: 120px 0 0 100px;
+}
+
+.row {
+  display: flex;
+}
+
+.col-6 {
+  width: 100%;
+  margin-right: 50px;
+}
+
+.card {
+  background: white;
+  padding: 15px;
+}
+
+.card__h3 {
+  font-size: 20px;
+  font-weight: 400;
+  margin-bottom: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.columnDiv {
+  display: flex;
+  flex-direction: column;
+}
+
+.postTitle {
+  font-size: 17px;
+}
+
+.postForm {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+}
+
+.postForm > label {
+  margin: 10px 0 4px 0;
+  display: block;
+  font-size: 13px;
+}
+
+.postInput {
+  padding: 10px;
+  background-color: white;
+  border: none;
+  outline: none;
+  border-bottom: 1px solid black;
+  margin-bottom: 15px;
+}
+
+.image_label {
+  display: block;
+  width: 100%;
+  padding: 15px;
+  background: rgb(136, 136, 136);
+  color: white;
+  cursor: pointer;
+  margin-bottom: 15px;
+}
+
+#image {
+  display: none;
+}
+
+.mar-bot-15 {
+  margin-bottom: 15px !important;
+}
+
+.postButton {
+  margin-top: 20px;
+  cursor: pointer;
+  background-color: teal;
+  border: none;
+  color: white;
+  border-radius: 10px;
+  padding: 12px;
+  font-size: large;
+}
+
+.divCenter {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.pad-15 {
+  padding: 15px;
+}
+
+.slugButton {
+  margin-top: 15px;
+  cursor: pointer;
+  background-color: rgb(136, 27, 20);
+  border: none;
+  color: white;
+  border-radius: 10px;
+  padding: 10px;
+}
+
+.imagePreview {
+  width: 100%;
+  height: auto;
+}
+
+.length {
+  font-size: 15px;
+  color: red;
+}

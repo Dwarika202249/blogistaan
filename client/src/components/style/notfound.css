@@ -1,0 +1,19 @@
+.notFound {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.notFound__container__h1 {
+  font-size: 60px;
+  color: red;
+  text-decoration: line-through;
+}
+
+.notFound__container__p {
+  margin-top: -10px;
+  font-size: 50px;
+}
